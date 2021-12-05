@@ -135,7 +135,7 @@ namespace Oscetch.MonoGame.Math.Objects
 
         public bool Intersects(Rectangle rectangle)
         {
-            return Intersects(new OsctechRectangle(rectangle, 0));
+            return Intersects(new OscetchRectangle(rectangle, 0));
         }
 
         public bool Intersects(ShapeBase other)

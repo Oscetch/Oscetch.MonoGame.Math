@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace Oscetch.MonoGame.Math.Objects
 {
-    public class OsctechPolygon : ShapeBase
+    public class OscetchPolygon : ShapeBase
     {
         public override IReadOnlyList<Vector2> Corners { get; }
         public override IReadOnlyList<Line> Lines { get; }
@@ -14,7 +14,7 @@ namespace Oscetch.MonoGame.Math.Objects
 
         public float Radius { get; }
 
-        public OsctechPolygon(float rotation, Vector2 rotationPoint, params Vector2[] corners)
+        public OscetchPolygon(float rotation, Vector2 rotationPoint, params Vector2[] corners)
         {
             if (corners.Length <= 2)
             {

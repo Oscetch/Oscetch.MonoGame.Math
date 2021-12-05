@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Oscetch.MonoGame.Math.Objects
 {
-    public class OsctechEllipse : ShapeBase
+    public class OscetchEllipse : ShapeBase
     {
         public override IReadOnlyList<Vector2> Corners { get; }
 
@@ -14,7 +14,7 @@ namespace Oscetch.MonoGame.Math.Objects
 
         public override Vector2 RotationPoint { get; }
 
-        public OsctechEllipse(Vector2 position, Vector2 size, float rotation, int cornersPerDegree = 20)
+        public OscetchEllipse(Vector2 position, Vector2 size, float rotation, int cornersPerDegree = 20)
         {
             RotationPoint = position;
             Rotation = rotation;

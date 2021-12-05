@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Oscetch.MonoGame.Math.Objects
 {
-    public class OsctechRectangle : ShapeBase
+    public class OscetchRectangle : ShapeBase
     {
         public override IReadOnlyList<Vector2> Corners { get; }
         public override IReadOnlyList<Line> Lines { get; }
@@ -15,7 +15,7 @@ namespace Oscetch.MonoGame.Math.Objects
         public Vector2 W { get; }
         public override float Rotation { get; }
 
-        public OsctechRectangle(Rectangle rawRectangle, float rotation)
+        public OscetchRectangle(Rectangle rawRectangle, float rotation)
         {
             RawRectangle = rawRectangle;
             Rotation = rotation;
@@ -49,7 +49,7 @@ namespace Oscetch.MonoGame.Math.Objects
             };
         }
 
-        public OsctechRectangle(Vector2 center, Vector2 size, float rotation)
+        public OscetchRectangle(Vector2 center, Vector2 size, float rotation)
         {
             RawRectangle = new Rectangle((center - size / 2).ToPoint(), size.ToPoint());
             Rotation = rotation;
