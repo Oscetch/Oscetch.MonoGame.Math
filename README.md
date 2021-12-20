@@ -4,4 +4,9 @@ Maths/geometry help for game development using MonoGame
 ## Installation
 
 Clone or install with nuget
-`Install-Package Oscetch.MonoGame.Math -Version 1.0.0`
+
+### MonoGame.GL
+`Install-Package Oscetch.MonoGame.Math.GL -Version 1.0.0`
+
+### MonoGame.DX
+`Install-Package Oscetch.MonoGame.Math.DX -Version 1.0.0`
