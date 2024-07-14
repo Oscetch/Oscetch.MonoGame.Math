@@ -42,10 +42,10 @@ namespace Oscetch.MonoGame.Math.Objects
 
             Lines = new List<Line>
             {
-                new Line(X, Y),
-                new Line(Y, Z),
-                new Line(Z, W),
-                new Line(W, X)
+                new(X, Y),
+                new(Y, Z),
+                new(Z, W),
+                new(W, X)
             };
         }
 
@@ -76,10 +76,10 @@ namespace Oscetch.MonoGame.Math.Objects
 
             Lines = new List<Line>
             {
-                new Line(X, Y),
-                new Line(Y, Z),
-                new Line(Z, W),
-                new Line(W, X)
+                new(X, Y),
+                new(Y, Z),
+                new(Z, W),
+                new(W, X)
             };
         }
     }

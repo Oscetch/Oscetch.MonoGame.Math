@@ -3,7 +3,7 @@ using Oscetch.MonoGame.Math.Helpers;
 
 namespace Oscetch.MonoGame.Math.Objects
 {
-    public struct Line
+    public readonly struct Line
     {
         /// <summary>
         /// X and Y are the start, Z and W are the end
