@@ -27,26 +27,26 @@ namespace Oscetch.MonoGame.Math.Objects
             v1 *= rawRectangle.Width / 2;
             v2 *= rawRectangle.Height / 2;
 
-            X = RotationPoint - v1 - v2;// RotationPoint + v1 + v2;
+            X = RotationPoint - v1 - v2;
             Y = RotationPoint + v1 - v2;
             Z = RotationPoint + v1 + v2;
             W = RotationPoint - v1 + v2;
 
-            Corners = new List<Vector2>
-            {
+            Corners =
+            [
                 X,
                 Y,
                 Z,
                 W
-            };
+            ];
 
-            Lines = new List<Line>
-            {
+            Lines =
+            [
                 new(X, Y),
                 new(Y, Z),
                 new(Z, W),
                 new(W, X)
-            };
+            ];
         }
 
         public OscetchRectangle(Vector2 center, Vector2 size, float rotation)
@@ -61,26 +61,26 @@ namespace Oscetch.MonoGame.Math.Objects
             v1 *= size.X / 2;
             v2 *= size.Y / 2;
 
-            X = RotationPoint - v1 - v2;// RotationPoint + v1 + v2;
+            X = RotationPoint - v1 - v2;
             Y = RotationPoint + v1 - v2;
             Z = RotationPoint + v1 + v2;
             W = RotationPoint - v1 + v2;
 
-            Corners = new List<Vector2>
-            {
+            Corners =
+            [
                 X,
                 Y,
                 Z,
                 W
-            };
+            ];
 
-            Lines = new List<Line>
-            {
+            Lines =
+            [
                 new(X, Y),
                 new(Y, Z),
                 new(Z, W),
                 new(W, X)
-            };
+            ];
         }
     }
 }
