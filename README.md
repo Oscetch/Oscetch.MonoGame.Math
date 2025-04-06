@@ -8,8 +8,8 @@ Clone or install with nuget
 
 ### MonoGame.GL
 
-`Install-Package Oscetch.MonoGame.Math.GL -Version 1.0.2`
+`Install-Package Oscetch.MonoGame.Math.GL -Version 1.0.3`
 
 ### MonoGame.DX
 
-`Install-Package Oscetch.MonoGame.Math.DX -Version 1.0.2`
+`Install-Package Oscetch.MonoGame.Math.DX -Version 1.0.3`
